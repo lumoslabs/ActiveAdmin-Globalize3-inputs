@@ -16,5 +16,5 @@ Gem::Specification.new do |gem|
   gem.version       = GlobalizeAAInputs::VERSION
 
   gem.add_dependency "globalize3"
-  gem.add_dependency "activeadmin"
+  gem.add_dependency "activeadmin", '>= 1.0.0.pre1'
 end
