@@ -15,6 +15,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = GlobalizeAAInputs::VERSION
 
-  gem.add_dependency "globalize3"
-  gem.add_dependency "activeadmin", '>= 1.0.0.pre1'
+  gem.add_dependency 'globalize',            '>= 3.1', '< 5'
+  gem.add_dependency 'globalize-versioning', '~> 0.1.0.alpha.1'
+  gem.add_dependency 'activeadmin',          '>= 1.0.0.pre1'
 end
